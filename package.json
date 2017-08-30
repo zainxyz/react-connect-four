@@ -1,0 +1,37 @@
+{
+  "name": "connect-four",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A variation of the famous connect-four game, built in React JS",
+  "main": "index.js",
+  "author": "Zain Abidi <hello@zainabidi.com> (http://zainabidi.com)",
+  "license": "SEE LICENSE IN LICENSE",
+  "dependencies": {
+    "lodash": "4.17.4",
+    "prop-types": "15.5.10",
+    "react": "15.5.4",
+    "react-dom": "15.5.4",
+    "react-router-dom": "4.1.2"
+  },
+  "devDependencies": {
+    "cross-env": "5.0.5",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.1",
+    "eslint-config-react-app": "^1.0.5",
+    "eslint-config-react-xyz": "git+https://github.com/zainxyz/eslint-config-react-xyz.git",
+    "eslint-import-resolver-node": "^0.3.1",
+    "eslint-loader": "^1.8.0",
+    "eslint-plugin-flowtype": "^2.35.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.0.1",
+    "eslint-plugin-react": "^7.1.0",
+    "react-scripts": "0.9.5"
+  },
+  "scripts": {
+    "build": "cross-env NODE_PATH=src react-scripts build",
+    "eject": "react-scripts eject",
+    "lint": "cross-env NODE_PATH=src eslint src/",
+    "start": "cross-env NODE_PATH=src react-scripts start",
+    "test": "cross-env NODE_PATH=src react-scripts test --env=jsdom"
+  }
+}
